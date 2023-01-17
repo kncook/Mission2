@@ -40,7 +40,7 @@ namespace Mission2
                 Console.WriteLine();
             
             }
-            //testing github
+         
 
             //PRINT
             //for (int i = 0; i < diceRoll; i++)
