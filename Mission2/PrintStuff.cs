@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
+//Katherine Cook
+// 1/18/2022
+// This program simulates the rolling of two 6-sided dice.  The user chooses how many times the “dice” will be thrown. Then, once the dice have
+//been thrown the specified number of times, a histogram is printed (using the* character) that shows
+//the total percentage each number was rolled. Each * will represent 1% of the total rolls.
+
 namespace Mission2
 {
     class PrintStuff
