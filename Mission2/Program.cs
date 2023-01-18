@@ -14,7 +14,7 @@ namespace Mission2
 
             Console.WriteLine("Welcome to the dice throwing simulator!");
             Console.Write("How many dice rolls would you like to simulate? ");
-            //allows user to inputand converts input to an int
+            //allows user to input and converts input to an int
             userinput = Console.ReadLine();
             diceRoll = Convert.ToInt32(userinput);
 
