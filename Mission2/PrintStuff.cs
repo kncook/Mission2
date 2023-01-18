@@ -17,6 +17,7 @@ namespace Mission2
         {
             int[] totals = new int[13];
 
+            //simulate the roll of die for # of times user inputs
             for (int i = 0; i < diceRoll; i++)
             {
                 int diceTotal = 0;
@@ -26,10 +27,8 @@ namespace Mission2
 
                 // Adding Random Numbers Together
                 diceTotal = dice1 + dice2;
-
                 totals[(diceTotal)]++;
    
-                
         
             }
 
@@ -47,15 +46,6 @@ namespace Mission2
             
             }
          
-
-            //PRINT
-            //for (int i = 0; i < diceRoll; i++)
-            //{
-            //  int NumPct = 0;
-            //NumPct = (char)(i + 12);
-
-            // Console.WriteLine(NumPct + ": " + totals[i]);
-            //}
 
         }
     }
