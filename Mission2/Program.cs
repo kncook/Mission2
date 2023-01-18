@@ -11,7 +11,7 @@ namespace Mission2
             //initialize values
             string userinput = "";
             int diceRoll;
-
+            //prints at the beginning
             Console.WriteLine("Welcome to the dice throwing simulator!");
             Console.Write("How many dice rolls would you like to simulate? ");
             //allows user to input and converts input to an int
